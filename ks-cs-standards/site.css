@@ -1,0 +1,60 @@
+/** site.js 
+ * You should add your CSS code to this file.  
+ * See the assignment description in Guide for what
+ * your code needs to accomplish.
+ */
+
+/*Desktop */
+@media only screen and (min-width: 701px) {
+  table, th, td {
+  border: 1px solid black;
+}
+  h1{
+    color:#663399;
+    }
+  th {
+    background-color:#D8BFD8;
+    padding: 8px;
+    }
+  th,td {
+    font-size: 16px;
+    font-style: bold;
+    }
+  table {
+    background-color: #D3D3D3;
+    opacity:.7;
+    }
+  body {
+     background-color: #FFF5EE;
+    }
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 700px) {
+  
+  h1{
+    color:#663399;
+    }
+  tr:nth-child(even) {background-color: #D3D3D3;}
+  table,tr{
+      width:100%;
+      border: 1px solid black;
+    }
+  body {
+    background-color: #FFF5EE;
+  }
+  th {
+    display:none;
+  }
+  td{
+      display:block;
+      width:100%;
+    }
+  tr{
+      display:block;
+      margin-bottom:30px;
+    }
+ 
+
+}
